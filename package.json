@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "cd server && yarn start",
+    "start": "concurrently -kill-others \"yarn run server\" \"yarn run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
