@@ -1,0 +1,2 @@
+export const BOOK_LIST_VIEW = 'BOOK_LIST_VIEW';
+export const BOOK_DETAILS_VIEW = 'BOOK_DETAILS_VIEW';

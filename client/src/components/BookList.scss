@@ -1,0 +1,9 @@
+.book-list {
+  &__title {
+    color: red;
+  }
+
+  &__name {
+    cursor: pointer;
+  }
+}
